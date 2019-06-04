@@ -28,9 +28,10 @@
               <li>IMDB分數：7.1</li>
               <li>
                 滿意度：
-                <span>
-                  <img id="total_star" src="./star_list.png" alt="star_list"
-                /></span>
+                <img id="total_star" src="./star_list.png" alt="star_list" />
+                <span id="satisfaction">5</span>
+                <img id="pen" src="./pen.png" alt="star_list" />
+                <span id="score">評分</span>
               </li>
             </ul>
             <div id="share_icon">
@@ -64,33 +65,56 @@
           </li>
           <li>
             <span>5 ★</span>
-            <span></span>
+            <span>
+              <div class="bar_container">
+                <div class="bar_ninety"></div>
+              </div>
+            </span>
             <span>18900</span>
           </li>
           <li>
             <span>4 ★</span>
-            <span></span>
+            <span>
+              <div class="bar_container">
+                <div class="bar_eighty"></div>
+              </div>
+            </span>
             <span>900</span>
           </li>
           <li>
             <span>3 ★</span>
-            <span></span>
+            <span>
+              <div class="bar_container">
+                <div class="bar_fifty"></div>
+              </div>
+            </span>
             <span>10</span>
           </li>
           <li>
             <span>2 ★</span>
-            <span></span>
+            <span>
+              <div class="bar_container">
+                <div class="bar_thirty"></div>
+              </div>
+            </span>
             <span>10</span>
           </li>
           <li>
             <span>1 ★</span>
-            <span></span>
+            <span>
+              <div class="bar_container">
+                <div class="bar_one"></div>
+              </div>
+            </span>
             <span>1</span>
           </li>
         </ul>
       </div>
       <form id="star_form" action="">
-        <div id="form_title">點一下評分：</div>
+        <div id="form_title">
+          點一下評分：
+          <img id="total_star" src="./star_list.png" alt="star_list" />
+        </div>
         <textarea type="text" placeholder="輸入評論(至少十五個字)"></textarea>
         <button>
           發表
