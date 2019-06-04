@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PSD to HTML</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <img id="back" src="./Back.png" alt="back" />
+      <img id="yahoo" src="./Yahoo.png" alt="yahoo" />
+    </header>
+    <section>
+      <div>
+        <img id="movie" src="./movie.png" alt="movie" />
+        <div id="movie_info">
+          <article id="movie_title">
+            <h2>一個巨星的誕生 <span id="limit">輔15+</span></h2>
+            <h2>A Star Is Born</h2>
+          </article>
+          <article id="movie_detail">
+            <ul>
+              <li>上映日期：2018-10-05</li>
+              <li>類型：驚悚、喜劇</li>
+              <li>IMDB分數：7.1</li>
+              <li>
+                滿意度：
+                <span>
+                  <img id="total_star" src="./star_list.png" alt="star_list"
+                /></span>
+              </li>
+            </ul>
+            <div id="share_icon">
+              <span id="fb_icon"></span><span id="line_icon"></span>
+            </div>
+          </article>
+        </div>
+      </div>
+      <article id="second_article">
+        <span id="article_tag">最新評論</span>
+        還可以!雖不算曼威電影非常棒的作品，但還是值得進電影院看，雖不算曼威電影非常棒的作品，但還是電影院看，給你........
+      </article>
+    </section>
+    <nav>
+      <ul>
+        <li>電影資訊</li>
+        <li id="nav_active">網友短評(22,000)</li>
+        <li>查時刻表</li>
+        <li>訂票</li>
+      </ul>
+    </nav>
+    <div id="star_container">
+      <div id="star_list">
+        <ul>
+          <li>
+            <span>總評分</span>
+            <span>
+              <img id="total_star" src="./star_list.png" alt="star_list"
+            /></span>
+            <span>共22,000人投票</span>
+          </li>
+          <li>
+            <span>5 ★</span>
+            <span></span>
+            <span>18900</span>
+          </li>
+          <li>
+            <span>4 ★</span>
+            <span></span>
+            <span>900</span>
+          </li>
+          <li>
+            <span>3 ★</span>
+            <span></span>
+            <span>10</span>
+          </li>
+          <li>
+            <span>2 ★</span>
+            <span></span>
+            <span>10</span>
+          </li>
+          <li>
+            <span>1 ★</span>
+            <span></span>
+            <span>1</span>
+          </li>
+        </ul>
+      </div>
+      <form id="star_form" action="">
+        <div id="form_title">點一下評分：</div>
+        <textarea type="text" placeholder="輸入評論(至少十五個字)"></textarea>
+        <button>
+          發表
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
